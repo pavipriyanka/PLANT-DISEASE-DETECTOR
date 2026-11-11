@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.gradio/
+# datasets and splits stay local (too big for GitHub)
+data/raw/
+data/demo/
+data/splits/
+*.zip
+*_gradcam.png
