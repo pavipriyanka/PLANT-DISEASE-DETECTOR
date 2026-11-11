@@ -3,7 +3,7 @@
 Identify **38 plant diseases across 14 crops** from a leaf photo. A pretrained CNN (MobileNetV2 by default) is fine-tuned in two phases on the PlantVillage dataset (54,303 images). The app also shows **where the model looked** with Grad-CAM and gives **care tips** for each disease.
 
 <!-- After training, replace with your numbers: -->
-> **Results:** Test accuracy **XX.X%** · Macro F1 **0.XXX** on a held-out 15% test split (see `reports/`)
+> **Results:** Test accuracy **97.7%** · Macro F1 **0.966** on 8,146 held-out test images (see `reports/`)
 
 ## Features
 - 🧠 **Transfer learning** with 3 backbones: `mobilenet_v2` (default), `efficientnet_b0`, `resnet18`

@@ -1,0 +1,33 @@
+{
+ "test_images": 8146,
+ "accuracy": 0.9768,
+ "macro_f1": 0.966,
+ "weighted_f1": 0.9772,
+ "most_confused": [
+  {
+   "true": "Tomato \u2013 Late blight",
+   "predicted": "Tomato \u2013 Early blight",
+   "count": 16
+  },
+  {
+   "true": "Corn (maize) \u2013 Northern Leaf Blight",
+   "predicted": "Corn (maize) \u2013 Cercospora leaf spot Gray leaf spot",
+   "count": 15
+  },
+  {
+   "true": "Tomato \u2013 Tomato Yellow Leaf Curl Virus",
+   "predicted": "Tomato \u2013 Bacterial spot",
+   "count": 12
+  },
+  {
+   "true": "Soybean \u2013 healthy",
+   "predicted": "Potato \u2013 healthy",
+   "count": 11
+  },
+  {
+   "true": "Tomato \u2013 Late blight",
+   "predicted": "Potato \u2013 Late blight",
+   "count": 8
+  }
+ ]
+}
